@@ -5,7 +5,7 @@ import Test.QuickCheck (Result, (>=?), (<=?), withHelp, quickCheck)
 
 import Prelude
 import Data.Array as Array
-import Data.Typelevel.Num (class Nat, toInt', D6, D12)
+import Data.Typelevel.Num (toInt', D6, D12)
 import Type.Proxy (Proxy (..))
 import Effect (Effect)
 import Effect.Console (log)
