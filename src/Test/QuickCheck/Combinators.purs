@@ -63,7 +63,7 @@ infixr 3 xor as |-|
 implies :: Result -> Result -> Result
 implies x y = case y of
   Failed y' -> case x of
-    Success -> Failed y'
+    Success -> Failed ("Implied failure: " <> y')
     _ -> Success
   _ -> Success
 
