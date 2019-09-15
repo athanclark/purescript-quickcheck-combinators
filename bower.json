@@ -12,9 +12,9 @@
     "url": "git://github.com/athanclark/purescript-quickcheck-combinators.git"
   },
   "dependencies": {
-    "purescript-prelude": "^4.1.0",
-    "purescript-quickcheck": "^5.0.0",
-    "purescript-typelevel": "^4.0.0"
+    "purescript-prelude": "^4.1.1",
+    "purescript-quickcheck": "^6.1.0",
+    "purescript-typelevel": "^6.0.0"
   },
   "devDependencies": {
     "purescript-psci-support": "^4.0.0"
